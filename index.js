@@ -42,13 +42,13 @@ async function getKernelInfo() {
 
   for (const name of apkFiles) {
     const match = name.match(
-      /kernel_\d+\.\d+\.\d+(?:-\d+)?[-~]([a-f0-9]+)(?:-r\d+)?_([a-zA-Z0-9_-]+)\.apk$/
+      /kernel-\d+\.\d+\.\d+(?:-\d+)?[-~]([a-f0-9]+)(?:-r\d+)?\.apk$/
     );
 
     if (match) {
       return {
         vermagic: match[1],
-        pkgarch: match[2],
+        pkgarch: "aarch64_cortex-a53",
       };
     }
   }

@@ -35,7 +35,7 @@ The project uses a **single universal install script** that automatically detect
 
 * **OpenWrt:** `25.12.0-rc1`, `25.12.0-rc2`, `25.12.0-rc3`, `25.12.0-rc4`
 * **Device / Устройство:** SNR AX2
-* **Target:** `mediatek / filogic`
+* **Target:** `qualcommax / ipq60xx`
 * **AmneziaWG:** 2.0
 * **Package format:** `.apk`
 * **Package manager:** `apk`
