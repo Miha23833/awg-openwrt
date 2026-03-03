@@ -16,8 +16,8 @@ if (!/^25\.\d+\.\d+(-rc\d+)?$/.test(version)) {
 }
 
 // Жёстко под SNR AX2
-const TARGET = 'mediatek';
-const SUBTARGET = 'filogic';
+const TARGET = 'qualcommax';
+const SUBTARGET = 'ipq60xx';
 
 const PACKAGES_URL =
   `https://downloads.openwrt.org/releases/${version}/targets/${TARGET}/${SUBTARGET}/packages/`;
